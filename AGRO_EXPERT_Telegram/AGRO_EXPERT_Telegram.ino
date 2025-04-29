@@ -12,16 +12,16 @@
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
 
-// Telegram SSL Certificate
-#include <TelegramCertificate.h>
+// // Telegram SSL Certificate
+// #include <TelegramCertificate.h>
 
 // WiFi Credentials
 #define SSID "sim"
 #define PASSWORD "simple12"
 
 // Telegram Bot Token and Chat ID
-#define BOT_TOKEN "YOUR_BOT_TOKEN"  // Replace with your bot token
-#define CHAT_ID "YOUR_CHAT_ID"      // Replace with your chat ID
+#define BOT_TOKEN "8042167703:AAH1Y1chVMa17xgWw7gFpkGo-Q8WHdPdBpQ"  // Replace with your bot token
+#define CHAT_ID "7901238515"      // Replace with your chat ID
 
 // Telegram bot check interval (1000ms = 1 second)
 #define BOT_CHECK_INTERVAL 1000
@@ -38,7 +38,7 @@ unsigned long lastAutoSenseUpdate = 0;
 #define MQ2_PIN 35
 #define RELAY_PIN 21
 #define SOIL_SERVO_PIN 13
-#define SEED_SERVO_PIN 14
+#define SEED_SERVO._PIN 14
 
 
 

@@ -63,7 +63,7 @@ const int PWMLightChannel = 3;
 #define PCLK_GPIO_NUM     22
 
 // WiFi network credentials - change these to match your network
-const char* ssid     = "sim";
+const char* ssid     = "sim1";
 const char* password = "simple12";
 
 // Maximum connection attempts before resetting
