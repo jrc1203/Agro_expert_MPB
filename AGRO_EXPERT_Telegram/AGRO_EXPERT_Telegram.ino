@@ -38,7 +38,7 @@ unsigned long lastAutoSenseUpdate = 0;
 #define MQ2_PIN 35
 #define RELAY_PIN 21
 #define SOIL_SERVO_PIN 13
-#define SEED_SERVO._PIN 14
+#define SEED_SERVO_PIN 14
 
 
 
