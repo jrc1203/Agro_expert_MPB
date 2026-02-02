@@ -1090,7 +1090,7 @@ void loop() {
 
     // Read soil moisture
     int rawSoilValue = analogRead(SOIL_MOISTURE_PIN);
-    soilMoisture = map(rawSoilValue, 0, 4095, 100, 0);  // Inverted for most soil moisture sensors
+    soilMoisture = map(rawSoilValue, 0, 1023, 100, 0);  // Inverted for most soil moisture sensors
     soilMoisture = constrain(soilMoisture, 0, 100);     // Ensure values are within 0-100 range
 
     // Read gas value
